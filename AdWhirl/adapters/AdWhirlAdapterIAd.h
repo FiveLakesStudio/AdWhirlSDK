@@ -19,7 +19,8 @@
  */
 
 #import "AdWhirlAdNetworkAdapter.h"
-#import <iAd/ADBannerView.h>
+#import <iAd/iAd.h>
+//#import <iAd/ADBannerView.h>
 
 @interface AdWhirlAdapterIAd : AdWhirlAdNetworkAdapter <ADBannerViewDelegate> {
   NSString *kADBannerContentSizeIdentifierPortrait;
